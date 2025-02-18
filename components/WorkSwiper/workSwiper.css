@@ -1,0 +1,20 @@
+.swiper-pagination-bullet {
+    width: 12px !important;
+    height: 3px !important;
+    border-radius: 0px !important;
+  }
+  
+  .swiper-pagination-bullet-active {
+    background: #000000;
+  }
+  
+  .categorySwiper .swiper-horizontal > .swiper-pagination-bullets,
+  .categorySwiper .swiper-pagination-bullets.swiper-pagination-horizontal {
+    position: static !important;
+  }
+  
+  @media screen and (min-width: 500px) {
+    .md\:w-auto {
+      width: -webkit-fill-available !important;
+    }
+  }

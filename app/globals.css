@@ -1,0 +1,128 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+    color: #1a1a1a;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    background: linear-gradient(to right,
+            rgba(200, 239, 214, 0.211) 0%,
+            rgba(207, 207, 207, 0.149) 50%,
+            rgba(170, 202, 233, 0.307) 100%);
+    background: -moz-linear-gradient(to right,
+            rgba(200, 239, 214, 0.211) 0%,
+            rgba(137, 138, 143, 0.149) 50%,
+            rgba(170, 202, 233, 0.307) 100%);
+    background: -webkit-linear-gradient(to right,
+            rgba(200, 239, 214, 0.211) 0%,
+            rgba(207, 207, 207, 0.149) 50%,
+            rgba(170, 202, 233, 0.307) 100%);
+    animation: rotateHue 10s linear infinite;
+}
+
+.title-head-gradient {
+    background-clip: text;
+    color: transparent;
+    background-image: repeating-linear-gradient(to right, #328EFB, #000000);
+}
+
+
+.title-head {
+    font-size: 20px !important;
+    line-height: normal;
+    /* Default font size for smaller screens */
+
+    /* Media query for medium screens */
+    @media (min-width: 768px) {
+        font-size: 30px !important;
+        /* Adjust font size for medium screens */
+    }
+
+    /* Media query for large screens */
+   
+
+    /* Media query for extra-large screens */
+    @media (min-width: 1280px) {
+        font-size: 40px !important;
+        /* Adjust font size for extra-large screens */
+    }
+}
+
+.subtitle-heading-bold{
+    font-size: 32px;
+    background-clip: text;
+    color: transparent;
+    background-image: repeating-linear-gradient(to right, #5a882d, #328EFB);
+}
+
+/* Default font size for smaller screens */
+.subtitle-head-bold {
+    font-size: 16px !important;
+    font-weight: 600;
+}
+
+/* Media query for medium screens */
+@media (min-width: 768px) {
+    .subtitle-head-bold {
+        font-size: 20px !important;
+    }
+}
+
+/* Media query for large screens */
+@media (min-width: 1024px) {
+    .subtitle-head-bold {
+        font-size: 20px !important;
+    }
+}
+
+/* Media query for extra-large screens */
+@media (min-width: 1280px) {
+    .subtitle-head-bold {
+        font-size: 20px !important;
+    }
+}
+.shadow-container {
+    box-shadow: 0px 5px 10px repeating-linear-gradient(to right, #5a882d, #328EFB);
+}
+
+
+.bgcliptext {
+    background-clip: text;
+    color: transparent;
+    background-image: linear-gradient(to right, #3836369b, #000000);
+  }
+
+
+  /* .bg-shadow-gradent-gradent{
+    position:relative;
+    background:#fff;
+    display:inline-block;
+    padding:20px;
+    margin: 10px;
+    border-radius:10px;
+  }
+  .bg-shadow-gradent:after{
+    content: "";
+    width:100%;;
+    height:98%;;
+    position:absolute;
+    top:20px;
+    left:0px;
+    z-index:-1;
+    -webkit-filter: blur(20px); /* Safari 6.0 - 9.0 */
+
+    .gradient-shadow {
+        /* Set the shadow properties */
+        box-shadow: 1px 0px 9px 2px #3f621d39, -1px 0px 6px -2px #328cfb4c;
+      }
+
+
+
+
+
+
+
+
+
+
